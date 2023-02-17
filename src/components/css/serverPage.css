@@ -1,0 +1,74 @@
+.page-main-ctn{
+    min-width:250px;
+    height: 90vh;
+}
+.page-sidebar{
+    width: 100%;
+    height: 100%;
+    overflow-x: auto;
+    overflow-y: auto;
+    white-space: nowrap;
+    
+}
+.cat-main{
+    width: auto;
+    padding: 5px;
+    margin-top:5px;
+    margin-left: 5px;
+    display: inline-block;
+    white-space: nowrap;
+}
+.cat-head{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    cursor: pointer;
+}
+.catalog-cnt{
+    padding-left: 5px;
+    margin-top:5px;
+    margin-left: 5px;
+    cursor: pointer;
+}
+.schema-cnt{
+    width: auto;
+    padding: 5px;
+    margin-top:5px;
+    margin-left: 5px;
+   
+    cursor: pointer;
+}
+.table-cnt-top{
+    width: auto;
+    padding-left: 5px;
+    margin-top:5px;
+    margin-left: 5px;
+    cursor: pointer;
+}
+.table-cnt{
+    width: auto;
+    margin: 5px;
+    padding: 3px;
+}
+.view-head{
+    width: auto;
+    padding-left: 5px;
+    margin-top:5px;
+    margin-left: 5px;
+    cursor: pointer;
+}
+
+.view-content{
+    width: auto;
+    background-color: rgb(108, 217, 236);
+    padding-left: 5px;
+    margin-top:5px;
+    margin-left: 5px;
+    cursor: pointer;
+}
+.col-cnt{
+    padding-left: 5px;
+    margin-top:5px;
+    margin-left: 5px;
+    cursor: pointer;
+}

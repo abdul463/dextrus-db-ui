@@ -1,0 +1,46 @@
+.page-main-ctn{
+    width: 300px;
+    height: 90vh;
+    /* background-color: aqua; */
+}
+.page-sidebar{
+    width: auto;
+    height: 100%;
+    background-color: gray;
+    overflow-x: auto;
+    overflow-y: auto;
+    white-space: nowrap;  
+}
+.cat-main{
+    min-width: 100%;
+    background-color:#EAE7B1;
+    padding: 5px;
+    display: inline-block;
+    white-space: nowrap;
+}
+.cat-head{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    cursor: pointer;
+}
+.table-head{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    cursor: pointer;
+}
+.view-head{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    cursor: pointer;
+}
+.catalog-cnt, .schema-cnt, .table-cnt-top, .table-cnt, .view-top-cnt, .view-cnt, .col-cnt{
+    width: auto;
+    padding-left: 5px;
+    padding-bottom: 5px;
+    margin-top:5px;
+    margin-left: 5px;
+    cursor: pointer;
+}
